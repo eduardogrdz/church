@@ -85,15 +85,35 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
 
+
+/*navbar*/
+.navbar-align {
+  position: fixed;
+  right: 0px;
+}
+
+/* footer */
+.social{
+  font-size: 50px;
+  padding: 0 2.5px 0 2.5px ;
+}
 /*home page*/
-.background_pic{
-  background-image: url(pictures/background_pic.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+body, html { 
   height: 100%;
 }
+
+.background_pic { 
+  background-image: url(pictures/background_pic.jpg);
+  height: 95%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.name{
+  padding-top: 20%;
+  color: black;
+}
+
 
 
 
