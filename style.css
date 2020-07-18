@@ -87,12 +87,38 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 
 
-
-/* footer */
-.social{
-  font-size: 50px;
-  padding: 0 2.5px 0 2.5px ;
+/*navbar*/
+#homebar {
+  background-color: transparent !important; 
+  border-bottom-color: white;
 }
+#homebar a:hover {
+  border-bottom: 2px solid white;
+}
+#homebar li.active {
+  border-bottom: 2px solid white;
+}
+#homebar .navbar-brand:hover {
+  border-bottom: 0px solid white;
+}
+
+.nav-item{
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border-bottom-color: black;
+} 
+.nav-item a:hover {
+  border-bottom: 2px solid black;
+}
+.nav-item.active {
+  border-bottom: 2px solid black;
+}
+.nav-item{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+
 /*home page*/
 body, html { 
   height: 100%;
@@ -104,6 +130,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .name{
   padding-top: 20%;
@@ -113,7 +140,11 @@ body, html {
 
 
 
-
+/* footer */
+.social{
+  font-size: 50px;
+  padding: 0 2.5px 0 2.5px ;
+}
 
 
 
