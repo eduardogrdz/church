@@ -123,10 +123,40 @@ Extra (xl) large devices (large desktops, 1200px and up)
 /*---------------------------------------------------------------------------------------*/
 
 /* footer */
-.social{
-  font-size: 50px;
-  padding: 0 2.5px 0 2.5px ;
+footer{
+  background-color: black;
+  color: white;
 }
+.social a{
+  font-size: 50px;
+  padding: 18px;
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-twitter{
+  color: #00acee;
+}
+.fa-linkedin{
+  color: #0e76a8;
+}
+.fa-instagram{
+  color: #517fa4;
+}
+
+.fa-facebook:hover {
+  color: #a8a8a8;
+}
+.fa-twitter:hover {
+  color: #a8a8a8;
+}
+.fa-linkedin:hover {
+  color: #a8a8a8;
+}
+.fa-instagram:hover {
+  color: #a8a8a8;
+}
+/*----------------------------------------------------------------*/
 
 /*---------------------------------------------------------------------------------------*/
 
