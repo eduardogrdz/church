@@ -87,6 +87,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 
 
+
+/*FORMATTING APPLICABLE IN ALL TABS*/
+
 /*navbar*/
 #homebar {
   background-color: transparent !important; 
@@ -104,7 +107,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 .nav-item{
   font-size: 20px;
-  font-family: 'Oswald', sans-serif;
   border-bottom-color: black;
 } 
 .nav-item a:hover {
@@ -118,6 +120,24 @@ Extra (xl) large devices (large desktops, 1200px and up)
   padding-right: 12px;
 }
 
+/*---------------------------------------------------------------------------------------*/
+
+/* footer */
+.social{
+  font-size: 50px;
+  padding: 0 2.5px 0 2.5px ;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/*fonts*/
+body{
+  font-family: 'Merriweather', serif;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/*FORMATTING FOR SPECIFIC TABS*/
 
 /*home page*/
 body, html { 
@@ -125,7 +145,8 @@ body, html {
 }
 
 .background_pic { 
-  background-image: url(pictures/background_pic.jpg);
+  background-image: linear-gradient(to bottom, rgba(0,0,0,.50), rgba(255,255,255,.20)),
+    url(pictures/background_pic.jpg);
   height: 95%; 
   background-position: center;
   background-repeat: no-repeat;
@@ -135,16 +156,12 @@ body, html {
 .name{
   padding-top: 20%;
   color: black;
+  font-weight: 700;
+  font-size: 60px;
+  -webkit-text-stroke: 1px white;
 }
 
-
-
-
-/* footer */
-.social{
-  font-size: 50px;
-  padding: 0 2.5px 0 2.5px ;
-}
+/*---------------------------------------------------------------------------------------*/
 
 
 
