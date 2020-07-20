@@ -114,6 +114,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 footer{
   background-color: black;
   color: white;
+  padding-top: 20px;
 }
 .social a{
   font-size: 50px;
@@ -191,9 +192,25 @@ body, html {
 }
 .carouselpad {
   padding: 0 5% 0 5%;
-  margin: 2% 17% 2% 17%;
+  margin: 0% 13% 0% 13%;
+  /* centers carousel vertically */
+  position: relative; 
+  top: 50%;
+  transform: translateY(-50%);
 }
-
-
+/*Description*/
+#events {
+  padding-top: 10px;
+}
+hr{
+  /* helps line look better */
+  border-top: 1.7px solid black; 
+  width: 90%; 
+  margin-top: -20px;
+}
+#matchpad > div > p{
+  /* aligns text blocks */
+  padding: 0 15px 0 15px;
+}
 
 /*---------------------------------------------------------------------------------------*/
