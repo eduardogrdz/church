@@ -1,15 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-
-
-
-
-
-
-
-
-
-
-
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
@@ -116,8 +104,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
   border-bottom: 2px solid black;
 }
 .nav-item{
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 /*---------------------------------------------------------------------------------------*/
@@ -137,9 +125,6 @@ footer{
 .fa-twitter{
   color: #00acee;
 }
-.fa-linkedin{
-  color: #0e76a8;
-}
 .fa-instagram{
   color: #517fa4;
 }
@@ -156,7 +141,6 @@ footer{
 .fa-instagram:hover {
   color: #a8a8a8;
 }
-/*----------------------------------------------------------------*/
 
 /*---------------------------------------------------------------------------------------*/
 
@@ -166,6 +150,10 @@ body{
 }
 
 /*---------------------------------------------------------------------------------------*/
+
+
+
+
 
 /*FORMATTING FOR SPECIFIC TABS*/
 
@@ -194,4 +182,18 @@ body, html {
 /*---------------------------------------------------------------------------------------*/
 
 
+/*events page*/
+/*Carousel*/
+#carouselExampleIndicators img{ 
+  width: auto;
+  height: 33rem;
+  
+}
+.carouselpad {
+  padding: 0 5% 0 5%;
+  margin: 2% 17% 2% 17%;
+}
 
+
+
+/*---------------------------------------------------------------------------------------*/
