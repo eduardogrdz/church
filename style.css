@@ -292,3 +292,14 @@ hr{
 .btn-secondary{
   background-color: #FF605C;
 }
+/*cards*/
+.card{
+  margin: 0 auto;
+}
+.pad-top-bot{
+  padding: 20px 0 20px 0;
+}
+.card-img-top{
+  height: 350px;
+  width: 286px;
+}
